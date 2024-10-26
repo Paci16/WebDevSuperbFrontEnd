@@ -1,0 +1,357 @@
+*{padding: 0; margin: 0;}
+
+
+
+.container {
+    width: 1000px; 
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* ini css header */
+
+.container body .atasheader{
+    overflow: hidden;
+}
+
+body .container .atasheader .kiri1 img{
+    width: 16%;
+    height: auto;
+    float: left;
+    margin-right: 290px;
+}
+
+menu { 
+    position: relative;
+	height: 40px; 
+    line-height: 40px; 
+    margin-left: 10px;
+}
+
+
+menu ul li {
+    float: left; 
+    list-style: none; 
+}
+
+menu ul li a img{
+    width: 12px;
+    height: 12px;
+    padding-top: 15px;
+    margin-left: -5px;
+}
+
+menu ul li a { 
+    text-decoration: none; 
+	padding: 3px 14px; 
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*ini bagian dalam menu nya*/
+
+menu ul li ul li a{ 
+    text-decoration: none; 
+	padding: 3px 35px 3px 15px;
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+menu ul li ul{ 
+    display: none;
+}
+/*
+untuk menyembunyikan tampilan
+*/
+
+menu ul li:hover > ul { 
+    display: block; 
+}	
+/*untuk membuka menu tampilan yang display none*/
+
+
+menu ul li ul	{ 
+    margin-left: -55px;
+    position:absolute; 
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(143, 143, 143, 0.476);
+    z-index: 2;     /*ini untuk layer jadi menunya g ketimpa img)*/
+}
+
+menu ul li ul li { 
+    float: none; 
+    position: relative;
+}		
+/*untuk membuat tampilan turun ke bwah*/
+
+menu ul a img{
+    width: 4%;
+    height: auto;
+    float: right;
+}
+
+.containerisi {
+    background-color: rgb(240, 240, 240);
+}
+
+.containerisi .isi {
+    width: 1000px;
+    margin: auto;
+    padding: 60px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.isi .account {
+    padding: 20px;
+    background-color: white;
+}
+
+.isi .account .judul h1 {
+    font-size: 40px;
+}
+
+.isi .account .judul {
+    margin-bottom: 30px;
+}
+
+.isi .account .login {
+    margin-bottom: 20px;
+}
+
+.isi .account .username p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.isi .account .username p span {
+    color: red;
+}
+
+.isi .account .username input {
+    width: 940px;
+    margin-bottom: 20px;
+}
+
+.isi .account .password p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.isi .account .password p span {
+    color: red;
+}
+
+.isi .account .password input {
+    width: 950px;
+    margin-bottom: 20px;
+    height: 38px;
+    border-color: black;
+    padding-left: 10px;
+}
+
+.isi .account .tombol {
+    overflow: hidden;
+}
+
+.isi .account .tombol .tlogin {
+    float: left;
+}
+
+.isi .account .tombol .tlogin a p {
+    background-color: black;
+    padding: 8px 12px;
+    width: 50px;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.isi .account .tombol .tlogin a {
+    text-decoration: none;
+}
+
+.isi .account .tombol .check {
+    float: left;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.isi .account .lost {
+    margin-top: 20px;
+}
+
+.isi .account .lost a {
+    color: black;
+}
+
+
+footer {
+    background: black;
+}
+
+.footer1{
+    width:1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.k{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    padding :20px;
+    text-align: left;
+    font-size: 15px;
+    box-sizing: border-box;     /*untuk tidak merubah ukuran box*/
+}
+
+.k .judul{
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid white 1px;
+    font-size: 12px;
+}
+
+.k .isi {
+    margin-top: 25px;
+    color: white;
+}
+
+.k.kiri {
+    padding-left: 0px;
+}
+
+.k.kiri .isi p{
+    margin-bottom: 20px;
+}
+
+.k.kiri .poto {
+    display: flex;
+}
+
+.k.kiri .poto a img {
+    width: 70%;
+    clip-path: circle(48%);
+    margin-right: 5px;
+}
+
+.k.kiri .poto a img:hover {
+    transform: scale(1.2);
+}
+
+.k.tengah .isi {
+    overflow: hidden;
+    width: auto;
+}
+
+.k.tengah .isi .kiri{
+    float: left;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.k.tengah .isi .kiri img {
+    width: 100%;
+}
+
+.k.tengah .isi .newsname {
+    width: 100%;
+    height: 60px;
+    margin-left: 55px;
+    padding-top: 9px;
+    
+}
+
+.k.tengah .isi .nama{
+    width: 100%;
+    font-size: 15px;
+}
+
+.k.tengah .isi .nama a {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.k.tengah .isi .newsname .tanggal a{
+    text-decoration: none;
+}
+
+.k.kanan {
+    padding-right: 0px;
+}
+
+.k.kanan .isi {
+    width: auto;
+}
+
+.k.kanan .email{
+    overflow: hidden;
+}
+
+.k.kanan .isi .email .boxnulis {
+    float: left;
+    width: 140px;
+}
+
+.k.kanan .isi .email .boxnulis input {
+    width: 160px;
+}
+
+.k.kanan .isi .email .tombol {
+    background-color: black;
+    width: auto;
+    float: right;
+}
+
+input[type=text] {
+    border-radius: 2px;
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=button] {    
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=button]:hover {    
+    background-color: lightgray;
+}
+
+.k.kanan .isi .desk {
+    margin-top: 30px;
+}
+
+.containerfooter{
+    width: 1000px; 
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+footer .footer2 {
+    height: 20px; 
+    color: white; 
+    text-align: center; 
+    font-size: 15px;
+    line-height: 40px; 
+    height: 40px; 
+    margin-top: 30px;
+    bottom: 0px;
+    border-top: 2px solid white;
+}	/* line height untuk ukuran kolom text*/
+  
+footer a {
+    color: white;
+}
+
+

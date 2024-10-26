@@ -1,0 +1,517 @@
+*{padding: 0; margin: 0;}
+
+
+
+.container {
+    width: 1000px; 
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* ini css header */
+
+.container body .atasheader{
+    overflow: hidden;
+}
+
+body .container .atasheader .kiri1 img{
+    width: 16%;
+    height: auto;
+    float: left;
+    margin-right: 290px;
+}
+
+menu { 
+    position: relative;
+	height: 40px; 
+    line-height: 40px; 
+    margin-left: 10px;
+}
+
+
+menu ul li {
+    float: left; 
+    list-style: none; 
+}
+
+menu ul li a img{
+    width: 12px;
+    height: 12px;
+    padding-top: 15px;
+    margin-left: -5px;
+}
+
+menu ul li a { 
+    text-decoration: none; 
+	padding: 3px 14px; 
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*ini bagian dalam menu nya*/
+
+menu ul li ul li a{ 
+    text-decoration: none; 
+	padding: 3px 35px 3px 15px;
+    color: black;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+menu ul li ul{ 
+    display: none;
+}
+/*
+untuk menyembunyikan tampilan
+*/
+
+menu ul li:hover > ul { 
+    display: block; 
+}	
+/*untuk membuka menu tampilan yang display none*/
+
+
+menu ul li ul	{ 
+    margin-left: -55px;
+    position:absolute; 
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px rgba(143, 143, 143, 0.476);
+    z-index: 2;     /*ini untuk layer jadi menunya g ketimpa img)*/
+}
+
+menu ul li ul li { 
+    float: none; 
+    position: relative;
+}		
+/*untuk membuat tampilan turun ke bwah*/
+
+menu ul a img{
+    width: 4%;
+    height: auto;
+    float: right;
+}
+
+.containerisi {
+    background-color: rgb(240, 240, 240);
+}
+
+.containerisi .isi {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerisi .isi .kiri {
+    float: left;
+    width: 300px;
+}
+
+.containerisi .isi .kiri .p .temp {
+    background-color: white;
+}
+
+.containerisi .isi .kiri .p .temp a img {
+    width: 300px;
+}
+
+.containerisi .isi .kiri .p .jarak {
+    background-color: white;
+}
+
+.containerisi .isi .kiri .p .jarak .tulisan {
+    padding: 20px 30px;
+}
+
+.containerisi .isi .kiri .p .jarak .tulisan .judul a {
+    text-decoration: none;
+}
+
+.containerisi .isi .kiri .p .jarak .tulisan .judul h2 {
+    color: black;
+}
+
+.containerisi .isi .kiri .p .jarak .tulisan .tanggal  {
+    margin: 20px 0px;
+}
+
+.containerisi .isi .kiri .p .jarak .tulisan .tanggal p {
+    color: gray;
+}
+
+.isi .kiri .p .jarak .tulisan .link {
+    margin: 40px 0px;
+}
+
+.isi .kiri .p .jarak .tulisan .link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.containerisi .isi .tengah {
+    float: left;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.containerisi .isi .tengah .p .temp {
+    background-color: white;
+}
+
+.containerisi .isi .tengah .p .temp a img {
+    width: 300px;
+}
+
+.containerisi .isi .tengah .p .jarak {
+    background-color: white;
+}
+
+.containerisi .isi .tengah .p .jarak .tulisan {
+    padding: 20px 30px;
+}
+
+.containerisi .isi .tengah .p .jarak .tulisan .judul a {
+    text-decoration: none;
+}
+
+.containerisi .isi .tengah .p .jarak .tulisan .judul h2 {
+    color: black;
+}
+
+.containerisi .isi .tengah .p .jarak .tulisan .tanggal  {
+    margin: 20px 0px;
+}
+
+.containerisi .isi .tengah .p .jarak .tulisan .tanggal p {
+    color: gray;
+}
+
+.isi .tengah .p .jarak .tulisan .link {
+    margin: 40px 0px;
+}
+
+.isi .tengah .p .jarak .tulisan .link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+
+.containerisi .isi .kanan {
+    width: 300px;
+    float: right;
+    background-color: white;
+}
+
+.isi .kanan .jarak {
+    padding: 30px 18px;
+}
+
+.isi .kanan .judul h1{
+    font-size: 22px;
+}
+
+.isi .kanan .tipe .pc {
+    margin-top: 20px;
+    overflow: hidden;
+    width: 264px;
+    height: 55px;
+}
+
+.isi .kanan .tipe .kiri {
+    float: left;
+    width: 50px;
+}
+
+.isi .kanan .tipe .deskripsi {
+    float: left;
+    width: 200px;
+}
+
+.isi .kanan .tipe .deskripsi a{
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.isi .kanan .tipe .kiri a img {
+    width: 50px;
+}
+
+.isi .kanan .tipe p {
+    border: 1px solid rgba(211, 211, 211, 0.323);
+    width: 180px;
+    float: right;
+    padding-right: 15px;
+    margin: 10px 0px;
+}
+
+.search {
+    margin-top: 80px;
+}
+
+.search .searchbox {
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.searchbox .boxnulis {
+    float: left;
+    width: 150px;
+}
+
+.searchbox .boxnulis input {
+    width: 160px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+
+.searchbox .tombol {
+    width: auto;
+    float: right;
+}
+
+.search .searchbox .boxnulis input {
+    border-radius: 2px;
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search .searchbox .tombol input {    
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 8px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-right: 45px;
+}
+
+input[type=button]:hover {    
+    background-color: lightgray;
+}
+
+.filter .scale a img {
+    width: 260px;
+}
+
+.filter .pricebox {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.filter .pricebox .left {
+    float: left;
+}
+
+.filter .pricebox .left p {
+    border: 1px solid black;
+    padding: 10px 40px 10px 10px;
+}
+
+.filter .pricebox .right {
+    float: right;
+}
+
+.filter .pricebox .right p {
+    border: 1px solid black;
+    padding: 10px 40px 10px 10px;
+}
+
+.follow .mediasosial {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 220px;
+}
+
+
+.follow .mediasosial .m a img {
+    width: 60px;
+}
+
+.follow .mediasosial .m a img:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background: black;
+}
+
+.footer1{
+    width:1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.k{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    padding :20px;
+    text-align: left;
+    font-size: 15px;
+    box-sizing: border-box;     /*untuk tidak merubah ukuran box*/
+}
+
+.k .judul{
+    color: white;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid white 1px;
+    font-size: 12px;
+}
+
+.k .isi {
+    margin-top: 25px;
+    color: white;
+}
+
+.k.kiri {
+    padding-left: 0px;
+}
+
+.k.kiri .isi p{
+    margin-bottom: 20px;
+}
+
+.k.kiri .poto {
+    display: flex;
+}
+
+.k.kiri .poto a img {
+    width: 70%;
+    clip-path: circle(48%);
+    margin-right: 5px;
+}
+
+.k.kiri .poto a img:hover {
+    transform: scale(1.2);
+}
+
+.k.tengah .isi {
+    overflow: hidden;
+    width: auto;
+}
+
+.k.tengah .isi .kiri{
+    float: left;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.k.tengah .isi .kiri img {
+    width: 100%;
+}
+
+.k.tengah .isi .newsname {
+    width: 100%;
+    height: 60px;
+    margin-left: 55px;
+    padding-top: 9px;
+    
+}
+
+.k.tengah .isi .nama{
+    width: 100%;
+    font-size: 15px;
+}
+
+.k.tengah .isi .nama a {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.k.tengah .isi .newsname .tanggal a{
+    text-decoration: none;
+}
+
+.k.kanan {
+    padding-right: 0px;
+}
+
+.k.kanan .isi {
+    width: auto;
+}
+
+.k.kanan .email{
+    overflow: hidden;
+}
+
+.k.kanan .isi .email .boxnulis {
+    float: left;
+    width: 140px;
+}
+
+.k.kanan .isi .email .boxnulis input {
+    width: 160px;
+}
+
+.k.kanan .isi .email .tombol {
+    background-color: black;
+    width: auto;
+    float: right;
+}
+
+input[type=text] {
+    border-radius: 2px;
+    padding: 10px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=button] {    
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=button]:hover {    
+    background-color: lightgray;
+}
+
+.k.kanan .isi .desk {
+    margin-top: 30px;
+}
+
+.containerfooter{
+    width: 1000px; 
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+footer .footer2 {
+    height: 20px; 
+    color: white; 
+    text-align: center; 
+    font-size: 15px;
+    line-height: 40px; 
+    height: 40px; 
+    margin-top: 30px;
+    bottom: 0px;
+    border-top: 2px solid white;
+}	/* line height untuk ukuran kolom text*/
+  
+footer a {
+    color: white;
+}
+
+
